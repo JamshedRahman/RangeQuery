@@ -8,7 +8,6 @@ public class RangeContainerTreeMapImpl implements RangeContainer {
         for (short i = 0; i < data.length; i++) {
             DataMap.put(data[i], i);
         }
-
     }
 
     @Override

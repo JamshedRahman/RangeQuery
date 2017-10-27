@@ -22,11 +22,9 @@ public class Main {
         int testLoop = 1000;
 
         Profiler.Start();
-
         for(int i = 0; i < testLoop; i++) {
             rqbt.runARangeQuery();
         }
-
         Profiler.End();
     }
 }
